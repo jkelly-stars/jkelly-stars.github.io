@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Jonathan Kelly"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "University of Toronto" # site tagline that appears below site title in masthead
 name                     : "Jonathan Kelly"
 description              : "Professor; Roboticist"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Jonathan Kelly"
   avatar           : "/assets/img/jk.png"
-  bio              : "Dean's Catalyst Professor - Collaborative Robotics, Perception, Planning 🤖"
+  bio              : "Dean's Catalyst Professor <br/> <em> Collaborative Robotics, Perception, Planning </em> 🤖"
   location         : "University of Toronto"
   email            :
   links:
@@ -117,11 +117,11 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:jkelly@utias.utoronto.ca
     - label: "STARS Lab"
-      icon: "fas fa-fw fa-star"
+      icon: "fas fa-fw fa-link"
       url: "http://starslab.ca"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/domo_mr_roboto"
+      # url: 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -137,7 +137,8 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "http://twitter.com/domo_mr_roboto"
+      
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -233,6 +234,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-twitter-plugin
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -290,7 +292,7 @@ defaults:
     values:
       layout: home
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false

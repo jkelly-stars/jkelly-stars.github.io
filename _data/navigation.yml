@@ -6,3 +6,11 @@ main:
     url: /pubs/
   - title: "Teaching"
     url: /teaching/
+
+basic:
+  - title: "About"
+    url: /#jk_about
+  - title: "Research"
+    url: /#jk_research
+  - title: "Twitter"
+    url: /#jk_twitter

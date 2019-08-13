@@ -116,12 +116,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:jkelly@utias.utoronto.ca
-    - label: "STARS Lab"
+    - label: "My Group (STARS Lab)"
       icon: "fas fa-fw fa-link"
       url: "http://starslab.ca"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: 
+    - label: "Curr. Vita"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/assets/pdf/cv.pdf"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"

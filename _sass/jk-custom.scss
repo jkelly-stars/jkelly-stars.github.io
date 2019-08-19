@@ -4,12 +4,14 @@
 //     width: 200px;
 // }
 
-.jekyll-twitter-plugin {
+#jk_twitter {
     display: none;
-    overflow: hidden;
     @include breakpoint($large) {
         display: block;
     }
+}
+.jekyll-twitter-plugin {
+    overflow: hidden;
 }
 
 #jk_twitter {

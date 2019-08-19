@@ -1,3 +1,45 @@
-.site-title span {
+// #twitter_bar {
+//     float:right;
+//     margin: 1em;
+//     width: 200px;
+// }
+
+.jekyll-twitter-plugin {
+    display: none;
+    overflow: hidden;
+    @include breakpoint($large) {
+        display: block;
+    }
+}
+
+#jk_twitter {
+    max-height: 550px;
+    width: 310px;
+    overflow-y: scroll; 
+}
+
+h2 i.fa-newspaper {
     font-weight: 100;
+}
+
+.jk_news {
+    font-weight: 200;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    background-color: #181c22;
+    border-radius: 5px; 
+}
+.jk_news table {
+    display: table;
+    width: 100%;
+}
+.jk_news td:nth-child(1) strong
+{
+   color: #eaeaea;
+   font-weight: 400;
+}
+
+.jk_news tr:last-child td
+{
+   border-bottom: none;
 }

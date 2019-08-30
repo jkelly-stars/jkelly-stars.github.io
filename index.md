@@ -29,9 +29,9 @@ sidebar:
 
 <h2 id="jk_research"> My research</h2>
 
-<div id='jk_twitter'>
+<!--<div id='jk_twitter'>
 {% twitter https://twitter.com/domo_mr_roboto maxwidth=300 limit=5 %}
-</div>{: .align-right}
+</div>{: .align-right}-->
 
 <p>
     My research is focused on developing robust, multisensor perception algorithms that enable robots to operate safely over long periods of time and in challenging environments, for example, on road networks, underground, underwater, in space, and on remote planetary surfaces. My goal is to create highly independent autonomous robotic systems for a wide range of tasks, from exploring the surface of Mars to helping with eldercare here on Earth. 

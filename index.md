@@ -30,7 +30,7 @@ sidebar:
 <h2 id="jk_research"> My research</h2>
 
 <!--<div id='jk_twitter'>
-{% twitter https://twitter.com/domo_mr_roboto maxwidth=300 limit=5 %}
+
 </div>{: .align-right}-->
 
 <p>
